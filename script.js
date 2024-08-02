@@ -17,13 +17,6 @@ function cambiarContexto(contexto) {
   img.setAttribute('src', `./img/${contexto}.jpeg`);
 }
 
-// function playSonido(idElementoAudio) {
-//   const audio = document.querySelector(idElementoAudio);
-//   if (audio) {
-//     audio.play();
-//   }
-// }
-
 function playSonido(idElementoAudio) {
   // Pausar todos los audios
   audios.forEach(audio => {
@@ -37,3 +30,11 @@ function playSonido(idElementoAudio) {
     audio.play();
   }
 }
+
+
+// Modo Dark
+document.getElementById('switch').addEventListener('click', function() {
+  document.body.classList.toggle('dark-mode');
+
+  // const isDarkMode = document.body.classList.contains('dark-mode');
+});
