@@ -48,5 +48,5 @@ El diseño y la funcionalidad del sitio fueron inspirados por la creatividad y d
 - **Atención a los Detalles:** Importancia de los pequeños detalles en el diseño y su impacto en la percepción general del sitio.
 
 ### 🌐 Acceso al Proyecto:
-Visita mi aplicación web interactiva: [Cats Mobile](https://cats-mobile.netlify.app)
+Visita mi aplicación web interactiva: [Cats Mobile](https://sammadr.github.io/Cats-Mobile/)
 
