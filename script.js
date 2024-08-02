@@ -19,7 +19,7 @@ function cambiarContexto(contexto) {
 
   switch (contexto) {
     case "tecla1":
-      frase.innerHTML =  `Ante usted, Cat-Boss`;
+      frase.innerHTML =  `Ante usted, Cat-Boss.`;
       break;
     case "tecla2":
       frase.innerHTML =  `La poderosa Madame Cat.`;
@@ -29,7 +29,7 @@ function cambiarContexto(contexto) {
       break;  
     
     case "tecla4":
-      frase.innerHTML =  `Que sea breve`;
+      frase.innerHTML =  `Y que sea breve.`;
       break;
     case "tecla5":
       frase.innerHTML =  `Mi tiempo es oro.`;
@@ -39,30 +39,30 @@ function cambiarContexto(contexto) {
       break;  
 
     case "tecla7":
-      frase.innerHTML =  `Partner in crime`;
+      frase.innerHTML =  `Partner in crime.`;
       break;
     case "tecla8":
       frase.innerHTML =  `Gangsta Love`;
       break;  
     case "tecla9":
-      frase.innerHTML =  `Uno y dos = problemas`;
+      frase.innerHTML =  `Uno y dos = problemas.`;
       break;  
 
     case "tecla10":
       frase.innerHTML =  `¡Eres el elegido!`;
       break;
     case "tecla11":
-      frase.innerHTML =  `Michis rudos`;
+      frase.innerHTML =  `Michis rudos.`;
       break;
     case "tecla12":
       frase.innerHTML =  `¡Tú, hazlo ahora!`;
       break;  
   
     default:
-      frase.innerHTML = "ups, error gatuno";
+      frase.innerHTML = "ups, error gatuno.";
       break;
   }
-}
+};
 
 function playSonido(idElementoAudio) {
   // Pausar todos los audios
@@ -76,7 +76,7 @@ function playSonido(idElementoAudio) {
   if (audio) {
     audio.play();
   }
-}
+};
 
 
 // Modo Dark
