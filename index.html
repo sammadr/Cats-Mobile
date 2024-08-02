@@ -1,36 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Hanabi</title>
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Hanabi</title>
+  <!-- bootstap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Estilos externos -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <!-- Scripts de Módulo con defer -->
+  <script src="script.js" defer></script>
 </head>
 <body data-contexto="tecla1">
-  <!-- <h1>Hanabi Mobile</h1> -->
-  <section class="phone">
-    <div class="pantalla">
-      <!-- <img src="img/gatos.jpeg" alt="Gatos con gafas"> -->
-      <img class="pantalla__img" src="img/tecla11.jpeg" alt="Gatos con gafas">
-    </div>
-    <!-- <img src="img/camino.jpeg" alt="Gatos con gafas"> -->
-    <div class="teclado">
-      <button data-contexto="tecla1" class="tecla">1</button>
-      <button data-contexto="tecla2" class="tecla">2</button>
-      <button data-contexto="tecla3" class="tecla">3</button>
-      <button data-contexto="tecla4" class="tecla">4</button>
-      <button data-contexto="tecla5" class="tecla">5</button>
-      <button data-contexto="tecla6" class="tecla">6</button>
-      <button data-contexto="tecla7" class="tecla">7</button>
-      <button data-contexto="tecla8" class="tecla">8</button>
-      <button data-contexto="tecla9" class="tecla">9</button>
-      <button data-contexto="tecla10" class="tecla">*</button>
-      <button data-contexto="tecla11" class="tecla">0</button>
-      <button data-contexto="tecla12" class="tecla">#</button>
-    </div>
+  <section class="layout">
+    <header class="header">
+      <nav class="navbar">
+        <div class="container-fluid ">
+          <a class="navbar-brand header__band" href="" target="_blank">
+            <img src="./img/gato6.jpeg" class="header_avatar img-fluid" alt="avatar de gato cantando">
+            <span class="header__name">
+              <span>Samma</span>
+              <span class="header__verificacion ms-1">
+                <i class="bi bi-patch-check-fill"></i>
+              </span>
+            </span>
+          </a>
+          <div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <button class="darkModeSwitch" id="switch">
+                  <span class="etiqueta-card"><i class="bi bi-brightness-high-fill"></i></span>
+                  <span><i class="bi bi-moon-stars-fill"></i></span> 
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="leftSide">
+      <footer class="footer p-4">
+        <div class="footer-body d-flex flex-column flex-sm-row justify-content-between py-4">
+          <p>
+            <span class="footer-span">Samma |</span> 
+            Mayo - Julio 2024  <i class="bi bi-c-circle"></i>   Todos los derechos reservados.
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <main class="body">
+      <h1 class="titulo">Hanabi Mobile</h1>
+      <section class="phone">
+        <div class="pantalla">
+          <img class="pantalla__img" src="img/tecla11.jpeg" alt="Gatos con gafas">
+        </div>
+        <div class="teclado">
+          <button data-contexto="tecla1" class="tecla">1</button>
+          <button data-contexto="tecla2" class="tecla">2</button>
+          <button data-contexto="tecla3" class="tecla">3</button>
+          <button data-contexto="tecla4" class="tecla">4</button>
+          <button data-contexto="tecla5" class="tecla">5</button>
+          <button data-contexto="tecla6" class="tecla">6</button>
+          <button data-contexto="tecla7" class="tecla">7</button>
+          <button data-contexto="tecla8" class="tecla">8</button>
+          <button data-contexto="tecla9" class="tecla">9</button>
+          <button data-contexto="tecla10" class="tecla">*</button>
+          <button data-contexto="tecla11" class="tecla">0</button>
+          <button data-contexto="tecla12" class="tecla">#</button>
+        </div>
+      </section>
+    </main>
   </section>
+
   <audio src="sounds/sonido_tecla1.mp3" id="sonido_tecla1"></audio>
   <audio src="sounds/sonido_tecla2.mp3" id="sonido_tecla2"></audio>
   <audio src="sounds/sonido_tecla3.mp3" id="sonido_tecla3"></audio>
