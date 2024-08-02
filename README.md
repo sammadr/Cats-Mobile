@@ -37,8 +37,8 @@ Este proyecto puso a prueba mis conocimientos en manipulación de elementos del 
 ### 🌟 Inspiración y Agradecimientos:
 Los cursos que me sirvieron de inspiración para crear Cats Mobile fueron:
 
-- **JavaScript para Web: Crea Páginas Dinámicas** de la instructora [Jeanmarie Quijada](https://www.linkedin.com/in/jeanmariequijada/) de Alura Latam.
-- **JavaScript: Manipulando Elementos en el DOM** de la instructora [Barbara Santos](https://app.aluracursos.com/user/barbara-santos) de Alura Latam.
+- [**JavaScript para Web: Crea Páginas Dinámicas**](https://app.aluracursos.com/course/javascript-web-paginas-dinamicas) de la instructora [Jeanmarie Quijada](https://www.linkedin.com/in/jeanmariequijada/) de Alura Latam.
+- [**JavaScript: Manipulando Elementos en el DOM**](https://app.aluracursos.com/course/javascript-manipulando-elementos-en-el-dom) de la instructora [Barbara Santos](https://app.aluracursos.com/user/barbara-santos) de Alura Latam.
 
 El diseño y la funcionalidad del sitio fueron inspirados por la creatividad y dedicación de mis instructoras, quienes me guiaron a lo largo del proceso.
 
