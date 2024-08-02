@@ -3,11 +3,20 @@
 body.dark-mode {
   background-color: var(--negro); 
 }
+
 body.dark-mode .header__name{
   color: var(--blanco);
 }
 
-body.dark-mode .bi{
+body.dark-mode .header__nick:hover{
+  color: var(--movil);
+}
+
+body.dark-mode .bi-patch-check-fill{
+  color: var(--movil);
+}
+
+body.dark-mode .icon-dark{
   color: var(--blanco);
 }
 
@@ -37,7 +46,6 @@ body.dark-mode .bi-c-circle{
   color: var(--movil);
 }
 
-/*  */
 
 /* Añade más reglas aquí para otros elementos */
 
