@@ -1,0 +1,68 @@
+/* Definición de estilos en modo oscuro */
+
+body.dark-mode {
+  background-color: var(--negro); 
+}
+body.dark-mode .header__name{
+  color: var(--blanco);
+}
+
+body.dark-mode .bi{
+  color: var(--blanco);
+}
+
+body.dark-mode .phone{
+  box-shadow: 5px 5px 15px var(--blanco);
+  border: 2px solid var(--morado);
+  background-color: var(--movil);
+}
+
+/* body.dark-mode .pantalla__img{
+  border: 2px solid var(--morado);
+} */
+
+body.dark-mode .titulo{
+  color: var(--movil);
+}
+
+body.dark-mode .footer{
+  color: var(--blanco);
+}
+
+body.dark-mode .footer-span{
+  color: var(--movil);
+}
+
+body.dark-mode .bi-c-circle{
+  color: var(--movil);
+}
+
+/*  */
+
+/* Añade más reglas aquí para otros elementos */
+
+
+.darkModeSwitch {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.darkModeSwitch span {
+  display: none;
+}
+
+.darkModeSwitch span:first-child {
+  display: inline;
+}
+
+body.dark-mode .darkModeSwitch span:first-child {
+  display: none;
+}
+
+body.dark-mode .darkModeSwitch span:last-child {
+  display: inline;
+}
