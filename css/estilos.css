@@ -60,12 +60,19 @@ body{
   align-items: center;
 }
 
+.header__nick:hover {
+  color: var(--violeta);
+  /* border-bottom: 2px solid var(--violeta); */
+}
+
+
 .header__verificacion {
   color: var(--violeta);
   padding-left: .25rem;
 }
 
-.bi{
+.icon-dark{
+  font-size: 25px;
   color: var(--violeta);
 }
 
@@ -137,6 +144,36 @@ body{
   display: flex;
   justify-content: center;
 }
+
+/* ESTILOS PARA LOS ELEMENTOS DE LA ETIQUETA SKILLS */
+.pantalla {
+  position: relative;
+  display: inline-block;
+  /* margin: 15px; */
+}
+
+.pantalla__text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--blanco);
+  background-color: rgba(46, 1, 30, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.pantalla:hover .pantalla__text {
+  opacity: 1;
+}
+
+
+
 
 .teclado {
   display: grid;
