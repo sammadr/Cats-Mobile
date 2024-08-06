@@ -2,7 +2,7 @@
 
 ### 📝 Descripción:
 
-Cats Mobile es un proyecto web interactivo que simula un teléfono móvil con un teclado numérico, donde cada tecla está asociada con un sonido y una imagen específica de gatos. Esta plataforma está diseñada para brindar una experiencia lúdica y atractiva, especialmente para los amantes de los gatos, permitiendo a los usuarios disfrutar de una interfaz única y personalizada. Además, cuenta con un modo oscuro para mejorar la experiencia de usuario en diferentes condiciones de iluminación.
+Cats Mobile es un proyecto web interactivo que simula un teléfono móvil con un teclado numérico, donde cada tecla está asociada con un sonido y una imagen específica de gatos. Esta plataforma está diseñada para brindar una experiencia divertida y atractiva, especialmente para los amantes de los gatos, permitiendo a los usuarios disfrutar de una interfaz única y personalizada. Además, cuenta con un modo oscuro para mejorar la experiencia de usuario en diferentes condiciones de iluminación.
 
 
 ![logo](https://github.com/sammadr/cats-mobile/blob/main/img/catsMobile.png) 
@@ -48,5 +48,5 @@ El diseño y la funcionalidad del sitio fueron inspirados por la creatividad y d
 - **Atención a los Detalles:** Importancia de los pequeños detalles en el diseño y su impacto en la percepción general del sitio.
 
 ### 🌐 Acceso al Proyecto:
-Visita mi aplicación web interactiva: [Cats Mobile](https://cats-mobile.netlify.app)
+Visita mi aplicación web interactiva: [Cats Mobile]([https://cats-mobile.netlify.app](https://sammadr.github.io/Cats-Mobile/))
 
